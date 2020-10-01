@@ -1,0 +1,106 @@
+
+.box_1 {
+  background-color:#242222;
+  margin:0;
+  height: 10%;
+}
+.main_title{
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 1%;
+}
+
+ #subtitle{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+#git{
+  border-radius: 2px;
+  background-color: #f1f7f9;
+  color: #08839e;
+}
+
+
+.main_body{
+  ;
+  position: relative;
+  margin-left: 35%;
+  margin-right: 35%;
+
+}
+
+.email_box, .password_box, .user_box{
+  padding-top: 4%;
+}
+
+#email_title, #password_title, #user_title, #box_text, #email_per{
+ font-family: sans-serif;
+  margin-left: 5%;
+  font-size: 15px;
+}
+
+.email_text, .password_text, .user_text, .box{
+  width: 110%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 30%;
+  border-radius: 5px;
+  border: 1px solid #ccc
+  background-color: #f2f2f2;
+
+
+}
+
+.terms{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+a{
+  color:#4296c4;
+  text-decoration: none;
+}
+
+.join{
+  color: #f1f8fa;
+  background-color: #75aff0;
+  width: 120%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 16px;
+  height: 70%;
+  border-radius: 4px;
+}
+
+.sign_in{
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h5 {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+    text-align: center;
+    font-size: 16px;
+}
+
+h5:before,
+h5:after {
+    content: '';
+    border-top: 1px solid;
+}
